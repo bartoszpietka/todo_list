@@ -1,0 +1,45 @@
+body{
+    font-family: Arial;
+    font-size: 20px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80vh 20vh;
+    grid-template-areas:
+    "interfejs"
+    "menu";
+}
+
+#app{
+    grid-area: app;
+    background-color: yellow;
+}
+
+#interfejs{
+    grid-area: interfejs;
+    background-color: beige;
+}
+
+.tododiv{
+    height: 300px;
+    width: 300px;
+    border: 5px solid #223B47;
+    background-color: #37515F;
+    border-radius: 15%;
+}
+
+.done{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(0, 200, 0);
+    border: 5px solid rgb(0, 150, 0);
+    border-radius: 15%;
+}
+
+.notdone{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(230, 0, 0);
+    border: 5px solid rgb(180, 0, 0);
+    border-radius: 15%;
+}
